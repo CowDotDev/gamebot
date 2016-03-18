@@ -19,3 +19,5 @@ require('./commands/returnLiveStream.js');
 require('./commands/returnPoolRules.js');
 /* Returns list of all the players saved in the database. If a player has an alias set that will be the main name returned with the slack name in () */
 require('./commands/returnListOfPlayers.js');
+/* Create New Game Based on Information Provided by User */
+require('./commands/createNewGame.js');
